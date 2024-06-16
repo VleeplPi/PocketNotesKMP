@@ -72,5 +72,4 @@ sealed class RequestState<out T>{
             }
         }
     }
-
 }
