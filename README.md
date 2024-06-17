@@ -3,5 +3,4 @@
 - koin
 - coroutines
 - mongodb
-- stately
-- realm db
+- realmdb
