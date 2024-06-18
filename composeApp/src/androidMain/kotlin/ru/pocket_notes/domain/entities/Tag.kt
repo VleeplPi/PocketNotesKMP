@@ -11,5 +11,5 @@ class Tag: RealmObject {
     @PrimaryKey
     var _id: ObjectId = ObjectId()
     var name: String = ""
-    var pocketCards: RealmList<PocketCard> = realmListOf()
+    var pocketCards: RealmList<Note> = realmListOf()
 }

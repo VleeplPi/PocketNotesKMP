@@ -6,8 +6,7 @@ import io.realm.kotlin.types.RealmObject
 import io.realm.kotlin.types.annotations.PrimaryKey
 import org.mongodb.kbson.ObjectId
 
-// Category -> PocketCard
-class PocketCard: RealmObject {
+class Note: RealmObject {
     @PrimaryKey
     var _id: ObjectId = ObjectId()
     var title: String = ""
